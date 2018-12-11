@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:g="http://www.jboss.org/drools/flow/gpd" xmlns:tns="http://www.jboss.org/drools" xmlns="http://www.jboss.org/drools" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" id="Definition" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+  <bpmn2:itemDefinition id="__19D78124-69CE-4C77-B0D4-F379104EF19A_taskResultOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_communicationTypeItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__38F013E4-C177-4385-A441-9D0AF4B4A1C6_taskTypeNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__38F013E4-C177-4385-A441-9D0AF4B4A1C6_activityInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__BEBFF9C1-CEC0-4D1E-BA5B-6D70A866DC4E_taskTypeNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__1059712F-4084-4573-B08E-BD0CF3BBA514_activityInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_nextActivityItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__A61DC339-6E50-445C-A85D-10CD1449B605_taskTypeNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__38F013E4-C177-4385-A441-9D0AF4B4A1C6_TaskInput.INPUTInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__BEBFF9C1-CEC0-4D1E-BA5B-6D70A866DC4E_activityInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__1059712F-4084-4573-B08E-BD0CF3BBA514_taskResultOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__DF4791E8-CA24-4D2F-97B0-49D3EB7928DD_payloadInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__BEBFF9C1-CEC0-4D1E-BA5B-6D70A866DC4E_taskResultOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__19D78124-69CE-4C77-B0D4-F379104EF19A_nextActivityOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_subjectTypeItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__A61DC339-6E50-445C-A85D-10CD1449B605_TaskInput.INPUTInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__38F013E4-C177-4385-A441-9D0AF4B4A1C6_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__19D78124-69CE-4C77-B0D4-F379104EF19A_activityInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__1059712F-4084-4573-B08E-BD0CF3BBA514_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__DF4791E8-CA24-4D2F-97B0-49D3EB7928DD_payloadOutputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__A61DC339-6E50-445C-A85D-10CD1449B605_activityInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_payloadItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__BEBFF9C1-CEC0-4D1E-BA5B-6D70A866DC4E_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_communicationIdItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__1059712F-4084-4573-B08E-BD0CF3BBA514_taskTypeNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__BEBFF9C1-CEC0-4D1E-BA5B-6D70A866DC4E_TaskInput.INPUTInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__19D78124-69CE-4C77-B0D4-F379104EF19A_TaskInput.INPUTInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__19D78124-69CE-4C77-B0D4-F379104EF19A_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__3F91C480-8029-4271-8367-93101FC59A48_payloadOutputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__A61DC339-6E50-445C-A85D-10CD1449B605_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__BEBFF9C1-CEC0-4D1E-BA5B-6D70A866DC4E_waitForResponseOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__1059712F-4084-4573-B08E-BD0CF3BBA514_TaskInput.INPUTInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_subjectIdItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="_waitForResponseItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__3F91C480-8029-4271-8367-93101FC59A48_payloadInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__A61DC339-6E50-445C-A85D-10CD1449B605_taskResultOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__19D78124-69CE-4C77-B0D4-F379104EF19A_taskTypeNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__38F013E4-C177-4385-A441-9D0AF4B4A1C6_taskResultOutputXItem" structureRef="String"/>
+  <bpmn2:process id="org.epo.pgs.platform.workflowmanager.test.MpSearch-1.0.0" tns:version="1.0.0" tns:packageName="org.epo.pgs.platform.workflowmanager.test" tns:adHoc="false" name="MpSearch" isExecutable="true" processType="Private">
+    <bpmn2:property id="payload" itemSubjectRef="_payloadItem"/>
+    <bpmn2:property id="subjectId" itemSubjectRef="_subjectIdItem"/>
+    <bpmn2:property id="subjectType" itemSubjectRef="_subjectTypeItem"/>
+    <bpmn2:property id="communicationId" itemSubjectRef="_communicationIdItem"/>
+    <bpmn2:property id="communicationType" itemSubjectRef="_communicationTypeItem"/>
+    <bpmn2:property id="waitForResponse" itemSubjectRef="_waitForResponseItem"/>
+    <bpmn2:property id="nextActivity" itemSubjectRef="_nextActivityItem"/>
+    <bpmn2:startEvent id="processStartEvent" name="">
+      <bpmn2:outgoing>processStartEvent-ScriptTask_1</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:endEvent id="_9AC8281B-5656-4340-B3CD-D88485CDD6FF" name="">
+      <bpmn2:incoming>ScriptTask_3-_9AC8281B-5656-4340-B3CD-D88485CDD6FF</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:scriptTask id="ScriptTask_1" name="Script Task 1">
+      <bpmn2:incoming>processStartEvent-ScriptTask_1</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_1</bpmn2:outgoing>
+      <bpmn2:script>System.out.println(&quot;Task1&quot;);</bpmn2:script>
+    </bpmn2:scriptTask>
+    <bpmn2:scriptTask id="ScriptTask_2" name="Script Task 2">
+      <bpmn2:incoming>SequenceFlow_2</bpmn2:incoming>
+      <bpmn2:outgoing>ScriptTask_2-ScriptTask_3</bpmn2:outgoing>
+      <bpmn2:script>System.out.println(&quot;Task2&quot;);</bpmn2:script>
+    </bpmn2:scriptTask>
+    <bpmn2:scriptTask id="ScriptTask_3" name="Script Task 3">
+      <bpmn2:incoming>ScriptTask_2-ScriptTask_3</bpmn2:incoming>
+      <bpmn2:outgoing>ScriptTask_3-_9AC8281B-5656-4340-B3CD-D88485CDD6FF</bpmn2:outgoing>
+      <bpmn2:script>System.out.println(&quot;Task3&quot;);</bpmn2:script>
+    </bpmn2:scriptTask>
+    <bpmn2:userTask id="_jbpm-unique-0" name="User Task">
+      <bpmn2:extensionElements>
+        <tns:onEntry-script scriptFormat="http://www.java.com/java">
+          <tns:script>System.out.println(&quot;Entred Human task&quot;);</tns:script>
+        </tns:onEntry-script>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_2</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="InputOutputSpecification_1">
+        <bpmn2:dataInput id="DataInput_1" name="TaskName"/>
+        <bpmn2:inputSet id="InputSet_1">
+          <bpmn2:dataInputRefs>DataInput_1</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="OutputSet_1"/>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="DataInputAssociation_1">
+        <bpmn2:targetRef>DataInput_1</bpmn2:targetRef>
+        <bpmn2:assignment id="Assignment_1">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="FormalExpression_2">Approve</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="FormalExpression_1">DataInput_1</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="ScriptTask_3-_9AC8281B-5656-4340-B3CD-D88485CDD6FF" tns:priority="1" name="" sourceRef="ScriptTask_3" targetRef="_9AC8281B-5656-4340-B3CD-D88485CDD6FF"/>
+    <bpmn2:sequenceFlow id="processStartEvent-ScriptTask_1" tns:priority="1" name="" sourceRef="processStartEvent" targetRef="ScriptTask_1"/>
+    <bpmn2:sequenceFlow id="ScriptTask_2-ScriptTask_3" tns:priority="1" name="" sourceRef="ScriptTask_2" targetRef="ScriptTask_3"/>
+    <bpmn2:sequenceFlow id="SequenceFlow_1" tns:priority="1" sourceRef="ScriptTask_1" targetRef="_jbpm-unique-0"/>
+    <bpmn2:sequenceFlow id="SequenceFlow_2" tns:priority="1" sourceRef="_jbpm-unique-0" targetRef="ScriptTask_2"/>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_1" bpmnElement="org.epo.pgs.platform.workflowmanager.test.MpSearch-1.0.0">
+      <bpmndi:BPMNShape id="BPMNShape_StartEvent_1" bpmnElement="processStartEvent">
+        <dc:Bounds height="48.0" width="48.0" x="21.0" y="343.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_EndEvent_1" bpmnElement="_9AC8281B-5656-4340-B3CD-D88485CDD6FF">
+        <dc:Bounds height="48.0" width="48.0" x="1490.0" y="341.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_ScriptTask_1" bpmnElement="ScriptTask_1">
+        <dc:Bounds height="50.0" width="110.0" x="419.0" y="342.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_ScriptTask_2" bpmnElement="ScriptTask_2">
+        <dc:Bounds height="50.0" width="110.0" x="710.0" y="362.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_ScriptTask_3" bpmnElement="ScriptTask_3">
+        <dc:Bounds height="50.0" width="110.0" x="1070.0" y="352.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_UserTask_1" bpmnElement="_jbpm-unique-0">
+        <dc:Bounds height="48.0" width="100.0" x="829.0" y="577.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_1" bpmnElement="ScriptTask_3-_9AC8281B-5656-4340-B3CD-D88485CDD6FF" sourceElement="BPMNShape_ScriptTask_3" targetElement="BPMNShape_EndEvent_1">
+        <di:waypoint xsi:type="dc:Point" x="1125.0" y="377.0"/>
+        <di:waypoint xsi:type="dc:Point" x="1324.0" y="377.0"/>
+        <di:waypoint xsi:type="dc:Point" x="1324.0" y="365.0"/>
+        <di:waypoint xsi:type="dc:Point" x="1514.0" y="365.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_2" bpmnElement="processStartEvent-ScriptTask_1" sourceElement="BPMNShape_StartEvent_1" targetElement="BPMNShape_ScriptTask_1">
+        <di:waypoint xsi:type="dc:Point" x="45.0" y="367.0"/>
+        <di:waypoint xsi:type="dc:Point" x="221.0" y="367.0"/>
+        <di:waypoint xsi:type="dc:Point" x="221.0" y="367.0"/>
+        <di:waypoint xsi:type="dc:Point" x="474.0" y="367.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_4" bpmnElement="ScriptTask_2-ScriptTask_3" sourceElement="BPMNShape_ScriptTask_2" targetElement="BPMNShape_ScriptTask_3">
+        <di:waypoint xsi:type="dc:Point" x="765.0" y="387.0"/>
+        <di:waypoint xsi:type="dc:Point" x="932.0" y="387.0"/>
+        <di:waypoint xsi:type="dc:Point" x="932.0" y="377.0"/>
+        <di:waypoint xsi:type="dc:Point" x="1125.0" y="377.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_5" bpmnElement="SequenceFlow_1" sourceElement="BPMNShape_ScriptTask_1" targetElement="BPMNShape_UserTask_1">
+        <di:waypoint xsi:type="dc:Point" x="529.0" y="367.0"/>
+        <di:waypoint xsi:type="dc:Point" x="664.0" y="367.0"/>
+        <di:waypoint xsi:type="dc:Point" x="664.0" y="601.0"/>
+        <di:waypoint xsi:type="dc:Point" x="829.0" y="601.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_6" bpmnElement="SequenceFlow_2" sourceElement="BPMNShape_UserTask_1" targetElement="BPMNShape_ScriptTask_2">
+        <di:waypoint xsi:type="dc:Point" x="879.0" y="577.0"/>
+        <di:waypoint xsi:type="dc:Point" x="879.0" y="387.0"/>
+        <di:waypoint xsi:type="dc:Point" x="820.0" y="387.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>
